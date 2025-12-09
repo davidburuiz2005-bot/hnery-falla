@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Box</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="precio">
+            <div class="header-card">1 day pass</div>
+            <ul>
+                <li>Acceso en día seleccionado</li>
+                <li>Participación en workshops</li>
+                <li>Acceso a zona networking</li>
+            </ul>
+            <button>COMPRAR</button>
+        </div>
+
+        <div class="precio">
+            <div class="header-card">Weekend Pass</div>
+            <ul>
+                <li>Acceso en fin de semana</li>
+                <li>Participación en workshops</li>
+                <li>Acceso a zona networking</li>
+                <li>Noche de hotel incluida</li>
+            </ul>
+            <button>COMPRAR</button>
+        </div>
+
+        <div class="precio">
+            <div class="header-card">Weekend Pass</div>
+            <ul>
+                <li>Acceso a todas las ponencias</li>
+                <li>Participación en workshops</li>
+                <li>Acceso a zona networking</li>
+                <li>Noche de hotel incluida</li>
+                <li>Lunch de bienvenida</li>
+            </ul>
+            <button>COMPRAR</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

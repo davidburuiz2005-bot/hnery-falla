@@ -1,0 +1,56 @@
+/* --- RESETEO BÁSICO --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;                /* Ocupa toda la pantalla (NOTA del ejercicio) */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+/* --- HEADER --- */
+header {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* --- LAYOUT PRINCIPAL (3 COLUMNAS) --- */
+main {
+    flex: 1;                       /* Ocupa todo el espacio disponible */
+    display: flex;
+}
+
+/* Columna izquierda */
+nav {
+    background-color: #cccccc;
+    padding: 20px;
+    width: 20%;                    /* Columna pequeña */
+}
+
+/* Columna central (DOBLE de ancho) */
+article {
+    background-color: #b5b5b5;
+    padding: 20px;
+    width: 60%;                    /* El doble del ancho de nav/aside */
+}
+
+/* Columna derecha */
+aside {
+    background-color: #cccccc;
+    padding: 20px;
+    width: 20%;
+}
+
+/* --- FOOTER --- */
+footer {
+    background-color: #eee;
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #c94a6a;
+}
+
+/* GALERÍA ADAPTABLE */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;         /* Permite que las imágenes bajen de línea */
+    justify-content: center; /* Centra todo */
+    gap: 15px;               /* Espacio entre imágenes */
+}
+
+.galeria img {
+    width: 200px;            /* Tamaño adaptable */
+    height: 200px;
+    object-fit: cover;       /* Recorte proporcionado */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

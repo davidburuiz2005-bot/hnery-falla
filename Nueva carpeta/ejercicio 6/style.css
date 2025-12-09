@@ -1,0 +1,66 @@
+/* Fondo general */
+body {
+    background-color: #93d9e9;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centrar horizontal */
+    align-items: center;      /* Centrar vertical */
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    gap: 30px;
+}
+
+/* Cada caja de precio */
+.precio {
+    background-color: white;
+    min-height: 480px;        /* Requisito */
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header de la tarjeta */
+.header-card {
+    background-color: salmon; /* Color pedido */
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Lista */
+.precio ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.precio ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Botón */
+button {
+    margin: 20px;
+    padding: 12px 0;
+    border: none;
+    background-color: #efefef;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d4d4d4;
+}
