@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== HERO ===== */
+.hero {
+    height: 100vh;
+    background: url("../images/angel.jpg") center / cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    letter-spacing: 6px;
+    color: white;
+}
+
+.hero .light {
+    opacity: 0.4;
+    font-weight: 300;
+}
+
+/* ===== SECCIONES ===== */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 100px 12%;
+    gap: 80px;
+}
+
+.section.reverse {
+    flex-direction: row;
+}
+
+/* TEXTO */
+.text {
+    width: 45%;
+}
+
+.text h2 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.text span {
+    color: #ff3b5c;
+}
+
+.text p {
+    margin: 25px 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* BOTÓN */
+button {
+    background: #ff3b5c;
+    color: white;
+
+    border: none;
+    padding: 12px 32px;
+    border-radius: 40px;
+
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* IMÁGENES TIPO CARD */
+.image {
+    width: 45%;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+/* ===== BANNER FINAL ===== */
+.banner {
+    height: 70vh;
+    background: url("../images/raptis.png") center / cover no-repeat;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 0 12%;
+}
+
+.banner-content {
+    max-width: 420px;
+    color: white;
+}
+
+.banner h2 {
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #ff3b5c;
+    color: white;
+    padding: 60px 10%;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-columns div {
+    line-height: 1.8;
+}
+
+.footer-columns h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-columns p {
+    font-size: 14px;
+}
+
+
+
